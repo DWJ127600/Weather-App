@@ -21,8 +21,6 @@
       <Suspense>
         <CityList />
         <template #fallback>
-          <!-- <p class="absolute top-[50vh] left-[50vw] translate-x-[-50%] translate-y-[-50%] text-white text-xl">Loading...
-          </p> -->
           <CityCardSkeleton />
         </template>
       </Suspense>
